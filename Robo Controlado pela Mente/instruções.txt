@@ -1,0 +1,6 @@
+1) Faça o download do driver do EEG em http://developer.neurosky.com/docs/doku.php?id=thinkgear_connector_tgc .
+2) Faça a instalação das bibliotecas MindSet Processing e NXTComm Processing através do menu "sketch" - "importar biblioteca" - "adicionar biblioteca" no Processing.
+3) Faça o pareamento do Lego com o bluetooth e verifique a porta serial conectada.
+4) No código, modifique a porta conectada ao robô - lego = new LegoNXT(this, "MODIFIQUE AQUI"); .
+5) Faça o pareamento do EEG com o bluetooth e rode o driver ThinkGear Connector da empresa.
+6) Execute o programa.
