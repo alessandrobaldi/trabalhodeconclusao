@@ -1,0 +1,7 @@
+1) Faça o download do driver do EEG em http://developer.neurosky.com/docs/doku.php?id=thinkgear_connector_tgc .
+2) Instalar biblioteca EEML (http://www.eeml.org/library/) no Xively.
+3) Faça a instalação das bibliotecas Simple HTTP Server, MindSet Processing e NXTComm Processing através do menu "sketch" - "importar biblioteca" - "adicionar biblioteca" no Processing.
+4) Colocar o Feed ID e APIKEY no respectivos campos do código.
+5) Faça o pareamento do EEG com o bluetooth e rode o driver ThinkGear Connector da empresa.
+6) Execute o programa.
+
