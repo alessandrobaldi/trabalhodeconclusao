@@ -1,0 +1,2 @@
+O github só consegue hospedar arquivos com menos de 25mb.
+Para a pasta, utilize arquivos .mov numerados, podendo ser obtidos em http://objetoseducacionais2.mec.gov.br/search?pais=&idioma=&tipo_recurso=V%C3%ADdeo&opcao=D&query=Dengue&submit=Buscar .
