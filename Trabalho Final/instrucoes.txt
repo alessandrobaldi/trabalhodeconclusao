@@ -1,0 +1,24 @@
+O código da pasta Arduino (conexao.ino) é responsável por conectar o eletroencefalograma ao Arduino através do módulo HC-05. Os dados recebidos são enviados por uma porta serial virtual.
+
+O código tccfinal.pde é para o Processing, responsável por receber dados do Arduino (dados de atenção) e modificar o fluxo de aprendizagem.
+
+1) Configure o módulo de acordo com http://www.instructables.com/id/Modify-The-HC-05-Bluetooth-Module-Defaults-Using-A/ usando as configurações:
+
+AT+NAME=”bluetooth”
+AT+UART=”57600,0,0”
+AT+ROLE=”1”
+AT+PSWD=”0000”
+AT+CMODE=”0”
+AT+BIND=”XXXX,YY,ZZZZZZ” (Colocar o endereço MAC do módulo comprado)
+AT+IAC=”9E8B33”
+AT+CLASS=”0”
+AT+INQM=”1,9,48”
+
+2) Conecte o módulo ao arduino de acordo com o esquema da imagem na pasta "Arduino", ligue-o ao usb e faça o pareamento bluetooth com o Neurosky Mindwave Mobile.
+
+3) Coloque na pasta data os respectivos objetos educacionais.
+
+4) Execute o programa.
+
+Observações: A pasta "DATA" acompanha exemplos de objetos educacionais montados a partir do Acervo de Recursos Educacionais em Saúde da UNA-SUS(https://ares.unasus.gov.br/acervo/), Banco Internacional
+de Objetos Educacionais do Ministério da Educação(http://objetoseducacionais2.mec.gov.br/) e 2+ Dengue (https://play.google.com/store/apps/details?id=edu.dengue). É possível modificá-la respeitando a hierarquia (pasta de vídeos, textos, imagens; arquivo 1,2,3).
